@@ -16,7 +16,7 @@ public class jenkinsStep {
 	@Given("User is on the registration form")
 	public void user_is_on_the_registration_form() {
 		driver=new ChromeDriver();
-		driver.get("http://192.168.1.3:8080/register/");
+		driver.get("http://192.168.1.14:8080/register/");
 	}
 	@When("User login {string},{string},{string},{string}")
 	public void user_login(String userName, String email, String pass, String confirmPass) {
